@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Prefabs/Niveles/Huerto01.unity
+    guid: edeb895dae7cdfc43b97f0e14c458fe7
+  - enabled: 1
+    path: Assets/Prefabs/Niveles/Selva02.unity
+    guid: adc6871a0f1add447a8f117c76b0bc20
+  - enabled: 1
+    path: Assets/Prefabs/Niveles/ArbolesCa03.unity
+    guid: 6140fda0d5d8f474c9f03e431e5abd1b
+  - enabled: 1
+    path: Assets/Scenes/Cosecha04.unity
+    guid: 3859bb988a8db9d4db3b271e8ff6d732
+  - enabled: 1
+    path: Assets/Scenes/BossFinal.unity
+    guid: 5604c144f8793264482b5646a76e1d1c
   m_configObjects: {}
