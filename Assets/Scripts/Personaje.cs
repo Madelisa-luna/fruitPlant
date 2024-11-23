@@ -18,10 +18,13 @@ public class Personaje : MonoBehaviour
     private double posColy1 = -0.3;
     private int vidaPersonaje = 5;
 
+<<<<<<< HEAD
     private Vector2 limitesX = new Vector2(-15, 19); // Límites para X
     private Vector2 limitesY = new Vector2(-9, 8);  // Límites para Y
 
 
+=======
+>>>>>>> origin/main
     private void Awake()
     {
         rig = GetComponentInChildren<Rigidbody2D>();
@@ -49,8 +52,11 @@ public class Personaje : MonoBehaviour
 
     private void Movimiento()
     {
+<<<<<<< HEAD
 
         //Moviento de personaje
+=======
+>>>>>>> origin/main
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -72,12 +78,15 @@ public class Personaje : MonoBehaviour
             spritePersonaje.flipX = false;
         }
 
+<<<<<<< HEAD
         // Limitar el movimiento a las coordenadas específicas
         Vector3 posicion = transform.position;
         posicion.x = Mathf.Clamp(posicion.x, limitesX.x, limitesX.y);
         posicion.y = Mathf.Clamp(posicion.y, limitesY.x, limitesY.y);
         transform.position = posicion;
 
+=======
+>>>>>>> origin/main
     }
 
     public void CausarHerida()
