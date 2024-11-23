@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - enemigo
+  - personaje
+  - arma
+  - enemigoManzana
+  - enemigoPlatano
+  - enemigoFresa
   layers:
   - Default
   - TransparentFX
